@@ -25,6 +25,6 @@ contract DeployYourContract is ScaffoldETHDeploy {
      *      - Export contract addresses & ABIs to `nextjs` packages
      */
     function run() external ScaffoldEthDeployerRunner {
-        new YourContract(deployer);
+        new YourContract(0x68BE77F0eC31953Fe5905d0CA3e7FE7840325B8B);
     }
 }

@@ -13,6 +13,12 @@ import "forge-std/console.sol";
  * @author BuidlGuidl
  */
 contract YourContract {
+    
+    address public delegate = 0xb3d17C1B6A66b7F2a099f8b3a3fC56D048E00F8f;
+
+    function setDelegate(address _delegate) public isOwner {
+        delegate = _delegate;
+    }
     // State Variables
     address public immutable owner;
     string public greeting = "Building Unstoppable Apps!!!";
