@@ -4,7 +4,7 @@
 A full-stack Ethereum dApp that allows users to interact with smart contracts on the **Sepolia testnet**. Built using **Foundry**, **Scaffold-ETH**, and **Next.js** with a modern frontend hosted on **Vercel**.
 
 ## 🚀 Live Demo
-Check out the app here: [Live App](https://delegate-funds-9hphowva5-dhruv4nes-projects.vercel.app/)
+Check out the app here: [Live App](https://delegate-funds.vercel.app/)
 
 ## 📜 Smart Contract
 Deployed on Sepolia testnet: [Contract Address](https://sepolia.etherscan.io/address/0x68BE77F0eC31953Fe5905d0CA3e7FE7840325B8B)
